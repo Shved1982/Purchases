@@ -1,0 +1,442 @@
+/*------------------------------------------------header--------------------------------------------------*/
+.container
+{
+	text-align: center;
+}
+.wrapper
+{
+//width: 1200px;
+text-align: center;
+	
+}
+
+.top
+{
+
+}
+.title
+{
+  font-size: 15.875px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(204, 51, 51);
+  line-height: 2.667;
+  text-align: left;
+   display: inline-block;  
+   text-transform: uppercase;
+ 
+   text-align: center;
+}
+.phone
+{
+
+  display: inline-block;  
+  font-size: 15.875px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(204, 51, 51);
+  line-height: 2.667;
+}
+
+.empty
+{
+	background: transparent !important;
+}
+
+.phoneico
+{
+	display: inline-block;  
+	width: 25px;
+	
+}
+
+.navigate
+{
+	
+    display: inline-block;
+    height: 60px;
+    left: -112px;
+    position: relative;
+    top: -180px;
+}
+
+.logo
+{
+	display: inline-block;
+}
+
+.logo img
+{
+	left: -109px;
+    position: relative;
+    top: -64px;
+    width: 200px;
+}	
+	
+.carosel
+{
+
+}
+
+.carosel p
+{
+	text-transform: uppercase;
+    
+  font-size: 15.875px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(204, 51, 51);
+	
+//  -moz-transform: matrix( 1,0,0,0.9995,0,0);
+//  -webkit-transform: matrix( 1,0,0,0.9995,0,0);
+//  -ms-transform: matrix( 1,0,0,0.9995,0,0);
+  
+}
+
+.carosel .discount
+{
+    
+	font-size: 34px;
+	font-family: "Lucida Sans Unicode";
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	text-shadow: 0px 8px 13px rgba(51, 0, 51, 0.35);
+	//-moz-transform: matrix( 0.69419164007825,-0.20427683182884,0.20437902133951,0.69384454425821,0,0);
+	//-webkit-transform: matrix( 0.69419164007825,-0.20427683182884,0.20437902133951,0.69384454425821,0,0);
+	//-ms-transform: matrix( 0.69419164007825,-0.20427683182884,0.20437902133951,0.69384454425821,0,0);
+  
+}
+.step
+{
+	background-color: #C9DCEB;
+    display: inline-block;
+    //height: 100%;
+    width: 280px;
+
+}
+
+.clack
+{
+	display: inline-block;
+	 margin: 0 5px;
+}
+
+.list
+{
+	display: inline-block;
+	text-align: left;
+	font-family: "Lucida Sans Unicode";
+	  color: rgb(204, 51, 51);
+	text-transform: uppercase;
+}
+
+.steptitle
+{
+padding-top: 25px;
+ text-transform: uppercase;
+ padding-bottom: 15px;
+ color: white;
+}
+
+/*------------------------------------------------header--------------------------------------------------*/
+
+
+/*-------------------------------------------------content-------------------------------------------------*/
+
+.block-wrapper
+{
+	height: 1000px;
+}
+
+.blocks
+{
+	//display: inline-block;
+	padding-top: 20px;
+	  background-color: rgb(201, 220, 235);
+	  width: 230px;
+	  height: 203px;
+	  margin-bottom: 15px;
+}
+/*.blocks a
+{
+	 display: block;
+     text-align: center;
+     height: 100%;
+}*/
+.blocks:hover, .share-block:hover, .store-block:hover
+{
+   cursor: pointer;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.line-blocks
+{
+    height: 223px;
+    left: -230px;
+    position: relative;
+    top: -200px;
+}
+
+.line-blocks div
+{
+	margin: 0 20px 20px 0;
+}
+
+.span6 p
+{
+	font-family: "Lucida Sans Unicode";
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 0.5;
+
+}
+
+
+.blocks-title
+{
+	font-family: "Lucida Sans Unicode";
+	 color: rgb(204, 51, 51) !important;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.blocks .count
+{
+	color: #4b78bb;
+}
+
+.blocks .amount
+{
+	color: #de2b2a;
+}
+
+.share-block
+{
+	background-color: rgb(201, 220, 235);
+    height: 421px;
+}
+
+.store-block
+{
+    background-color: rgb(201, 220, 235);
+    height: 421px;
+}
+
+
+.block-footer
+{
+   background-color: rgb(201, 220, 235);
+    color: rgb(51, 0, 51);
+    
+    font-family: "Lucida Sans Unicode";
+    font-size: 15.875px;
+    
+    line-height: 1.2;
+   
+	text-align: left;
+	padding: 5px;
+}
+
+.head-block-footer
+{
+  background-color: #4b78bb;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  font-size: 15.875px;
+  font-family: "Lucida Sans Unicode";
+  line-height: 1.2;
+}
+
+/*--------------------------------------------------content--------------------------------------------------*/
+
+
+
+/*------------------------------------------------footer--------------------------------------------------------*/
+
+.footer
+{
+  }
+
+body
+{
+	//min-height: 100%;
+}
+.footermenu ul li
+{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+}
+
+.footermenu ul li a
+{
+	font-family: "Lucida Sans Unicode";
+	text-decoration: none;
+}
+
+.footermenu ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.contacts
+{
+	font-family: "Lucida Sans Unicode";
+}
+/*------------------------------------------------footer--------------------------------------------------------*/
+
+
+/*-----------------------------------------menu--------------------------------------------------------*/
+
+.menu
+{
+  position: relative;
+    top: -5px;
+}
+
+.menu ul
+{
+	margin: 0 !important;
+	background-color: #C9DCEB;	
+	padding: 0;
+	
+}
+.menu ul li
+{
+	
+	width: 15%;
+	display: inline-block;
+	text-transform: uppercase;
+  padding: 0 15px 0 15px;
+  font-size: 14.875px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(255, 255, 255);
+  line-height: 2.667;
+  -moz-transform: matrix( 1,0,0,0.9995,0,0);
+  -webkit-transform: matrix( 1,0,0,0.9995,0,0);
+  -ms-transform: matrix( 1,0,0,0.9995,0,0);
+}
+
+.menu ul li:hover
+{
+	background-color:#ffffcc;
+}
+
+.menu ul li:hover > a
+{
+	color: grey;
+}
+
+.menu ul > li:last-child
+{
+	//background-color: #de2b2a;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+
+#mainmenu li > ul > li 
+{
+	width: 200px;	
+}
+
+#mainmenu li > ul > li:hover
+{
+	width: 200px;	
+	color: black;
+}
+
+#mainmenu > li > ul {
+    position:absolute;
+    top:40px;
+    display:none; 
+	left: 0px;
+	width: 230px;
+	border: 1px solid;
+
+}
+ 
+
+#mainmenu > li:hover > ul {
+    display:block; 
+	width: 230px;	
+	z-index: 999;
+}
+
+
+/*-----------------------------------------menu--------------------------------------------------------*/
+
+
+.price:hover
+{
+	cursor: pointer;
+}
+
+.btn
+{
+	background-color: #C9DCEB;
+	background-image: none;
+}
+.ng-dirty .ng-valid
+{
+	border:1px solid green;	
+}
+
+.ng-dirty .ng-invalid
+{
+	border:1px solid red;	
+}
+
+
+.content_content
+{
+	height: 1000px;
+}
+.box
+{
+	display: inline-block;
+	border: 1px solid;
+	border-color: grey;
+	margin: 0 50px 0 50px;
+	padding: 75px;
+	text-align: center;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.box:hover
+{
+	box-shadow:0 0 15px #000000;
+	border:1px solid #000000;
+	cursor: pointer;
+}
+.box:active
+{
+	box-shadow:0 0 5px #000000;
+	border:1px solid #000000;
+	cursor: pointer;
+}
+.main
+{
+	margin: 50px;
+}
+.actions
+{
+	width: 25%;
+}
+.actions a
+{
+	margin: 0 15px 0 15px;
+	text-align: center;
+}
+.actions a:hover
+{
+	opacity: 0.5;
+}

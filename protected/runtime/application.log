@@ -1,0 +1,1729 @@
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-touch.min.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-touch.min.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-translate.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-translate.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-cookies.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-cookies.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-touch.min.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-touch.min.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/ui-bootstrap-tpls-0.4.0.min.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/ui-bootstrap-tpls-0.4.0.min.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-translate.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-translate.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-cookies.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-cookies.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-touch.min.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-touch.min.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/angular/angular-touch.min.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins/angu...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/plugins/angular/angular-touch.min.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/IndexController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/IndexController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/tickets.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/tickets.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "renderIndex".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('renderIndex')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/renderIndex
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 13:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "renderIndex".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('renderIndex')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/renderIndex
+---
+2015/03/21 14:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "form".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('form')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('form')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/form')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/form
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:29:15 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(37): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (37)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:30:21 [error] [exception.CException] exception 'CException' with message 'Property "Customer.adress" is not defined.' in C:\OpenServer\domains\test1.loc\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('adress', 'Test Address 0')
+#1 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(19): CActiveRecord->__set('adress', 'Test Address 0')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2015/03/21 14:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:36:06 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(16): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (16)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:37:05 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(16): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (16)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:38:31 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (4)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:39:04 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (4)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:39:13 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(16): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (16)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:39:24 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(16): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (16)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 14:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customes.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customes.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/CustomersController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/CustomersController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/controllers/CustomersController.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/controll...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/controllers/CustomersController.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customes.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customes.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customes.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customes.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customes.js".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customes.js
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getList".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('getList')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getList".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('getList')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getList".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('getList')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getList".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('getList')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 14:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getList".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('getList')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 15:00:22 [error] [php] include(Customers.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(69): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (69)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 15:04:03 [error] [php] include(Customers.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test1.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(69): spl_autoload_call()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (69)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 15:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://test1.loc/css/bootstrap.css
+---
+2015/03/21 15:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://test1.loc/css/bootstrap.css
+---
+2015/03/21 17:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deleteCustomer".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('deleteCustomer')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deleteCustomer".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('deleteCustomer')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deleteCustomer".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('deleteCustomer')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:34:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `order` WHERE id = :customer_id.
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (131)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 17:34:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `order` WHERE id = :customer_id' in C:\OpenServer\domains\test1.loc\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\db\ar\CActiveRecord.php(1818): CDbCommand->execute()
+#1 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(131): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiondeleteCustomer()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('deleteCustomer')
+#7 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteCust...')
+#8 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:34:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `order` WHERE customer_id = :customer_id.
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (131)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/21 17:34:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `order` WHERE customer_id = :customer_id' in C:\OpenServer\domains\test1.loc\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\db\ar\CActiveRecord.php(1818): CDbCommand->execute()
+#1 C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php(131): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiondeleteCustomer()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('deleteCustomer')
+#7 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteCust...')
+#8 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:35:42 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Клиент не удален' in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:135
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiondeleteCustomer()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('deleteCustomer')
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteCust...')
+#6 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 17:36:28 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Заказы не удалени' in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:141
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiondeleteCustomer()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('deleteCustomer')
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteCust...')
+#6 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/deleteCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:24:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "getOrders".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('getOrders')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/getOrders
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "getOrders".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('getOrders')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/getOrders
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 18:46:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 19:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/21 19:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/21 19:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/21 21:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/21 21:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/21 22:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "createOrder".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('createOrder')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('createOrder')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/createOrde...')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/createOrder
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 00:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 00:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 00:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 00:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 00:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/update
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 01:11:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Ошибочный запрос, не удалось обновить клиента.Array' in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:209
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionupdateCustomer()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('updateCustomer')
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/updateCust...')
+#6 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/updateCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 01:12:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Ошибочный запрос, не удалось обновить клиента.' in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:209
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionupdateCustomer()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('updateCustomer')
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/updateCust...')
+#6 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/updateCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 01:12:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Ошибочный запрос, не удалось обновить клиента.' in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:209
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionupdateCustomer()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): CController->run('updateCustomer')
+#5 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/updateCust...')
+#6 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/updateCustomer
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/22 21:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/22 21:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/22 22:08:17 [error] [php] Creating default object from empty value (C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:291)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/updateOrder
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (291)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/22 22:09:57 [error] [php] Creating default object from empty value (C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:291)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/updateOrder
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (291)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/22 22:10:57 [error] [php] Creating default object from empty value (C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:291)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/updateOrder
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (291)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/22 22:12:23 [error] [php] Creating default object from empty value (C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php:291)
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\OpenServer\domains\test1.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/updateOrder
+in C:\OpenServer\domains\test1.loc\www\application\protected\controllers\SiteController.php (291)
+in C:\OpenServer\domains\test1.loc\www\application\index.php (13)
+2015/03/23 01:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/24 22:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/24 22:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/24 22:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/24 22:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/24 23:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test1.loc/
+---
+2015/03/24 23:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test1.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test1.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test1.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test1.loc/
+---
+2015/06/30 21:40:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_loc.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2015/06/30 22:09:03 [error] [php] include(Config.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(17): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (17)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:26:25 [error] [php] Declaration of Config::insert() should be compatible with CActiveRecord::insert($attributes = NULL) (C:\OpenServer\domains\test2.loc\www\application\protected\models\Config.php:12)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(18): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\test2.loc\www\application\protected\models\Config.php (12)
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (18)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:27:32 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(110): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (110)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:28:18 [error] [exception.CException] exception 'CException' with message 'Property "Users.login" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('login', 'test0')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(42): CActiveRecord->__set('login', 'test0')
+#2 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(26): SiteController->insertFake()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/
+---
+2015/06/30 22:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:28:35 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (111)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:36:49 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(124): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (124)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:37:01 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(208): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionaddCustomer()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/addCustomer/
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (208)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:37:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:37:50 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(124): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (124)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:43:43 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(124): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (124)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:44:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:44:12 [error] [php] include(Customer.php): failed to open stream: No such file or directory (C:\OpenServer\domains\test2.loc\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(124): spl_autoload_call()
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/getList
+in C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php (124)
+in C:\OpenServer\domains\test2.loc\www\application\index.php (13)
+2015/06/30 22:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/06/30 22:55:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/06/30 22:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:56:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/06/30 22:56:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/06/30 22:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app/services/customers.js".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app/services...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app/services/customers.js
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:57:53 [error] [exception.CException] exception 'CException' with message 'Property "Purchases.user" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): CActiveRecord->__get('user')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:59:12 [error] [exception.CException] exception 'CException' with message 'Property "Purchases.user" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): CActiveRecord->__get('user')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 22:59:36 [error] [exception.CException] exception 'CException' with message 'Property "Purchases.user" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): CActiveRecord->__get('user')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getList
+---
+2015/06/30 23:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:03:24 [error] [exception.CException] exception 'CException' with message 'Property "Users.firs_name" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('firs_name')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\models\Users.php(113): CActiveRecord->__get('firs_name')
+#2 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): Users->getFullName()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#9 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/site/getList
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:03:28 [error] [exception.CException] exception 'CException' with message 'Property "Users.firs_name" is not defined.' in C:\OpenServer\domains\test2.loc\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('firs_name')
+#1 C:\OpenServer\domains\test2.loc\www\application\protected\models\Users.php(113): CActiveRecord->__get('firs_name')
+#2 C:\OpenServer\domains\test2.loc\www\application\protected\controllers\SiteController.php(111): Users->getFullName()
+#3 C:\OpenServer\domains\test2.loc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actiongetList()
+#4 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('getList')
+#8 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getList')
+#9 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/site/getList
+---
+2015/06/30 23:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox/jquery.fancybox-1.3.4.css".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/fancybox/jq...')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/fancybox/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:15:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "default".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(270): CController->missingAction('default')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('default')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/default')
+#3 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/default
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "deletePurchase".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(270): CController->missingAction('deletePurchase')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('deletePurchase')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deletePurc...')
+#3 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/deletePurchase
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "deletePurchase".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CController.php(270): CController->missingAction('deletePurchase')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(282): CController->run('deletePurchase')
+#2 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deletePurc...')
+#3 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/deletePurchase
+HTTP_REFERER=http://test2.loc/
+---
+2015/06/30 23:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test2.loc/
+---
+2015/07/01 00:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test2.loc/
+---
+2015/07/01 00:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test2.loc/
+---
+2015/07/01 00:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/07/01 00:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test2.loc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\test2.loc\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\test2.loc\www\application\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
