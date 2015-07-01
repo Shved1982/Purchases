@@ -111,8 +111,8 @@ class SiteController extends Controller
 				'userfullname' => $purchase->user->getFullName(),
 				'departure' => $purchase->trip->departure,
 				'destination' => $purchase->trip->destination,
-				'date_start' => date("d.m.Y", strtotime($purchase->trip->date_start)),
-				'date_end' => date("d.m.Y", strtotime($purchase->trip->date_end)),
+				'date_start' => date("Y-m-d", strtotime($purchase->trip->date_start)),
+				'date_end' => date("Y-m-d", strtotime($purchase->trip->date_end)),
 				'name' => $purchase->name,
 				'price' => $purchase->price,
 			);
@@ -121,7 +121,10 @@ class SiteController extends Controller
 		 echo  CJSON::encode($result);
     }  
 	
-	
+	/**
+	 * Метод удаления покупки
+	 * возвращает массив JSON с ошибками
+	 */
 	public function actiondeletePurchase()
 	{
 		if(empty(Yii::app()->request->csrfToken))
@@ -138,91 +141,11 @@ class SiteController extends Controller
 		 echo CJSON::encode($errors);
     }
 	
-	
-	
-	
-	
-	
-	
-	
-	public function actionForm()
-	{
-	
-		$result = $this->renderPartial('form',NULL, TRUE);
-		
-		 echo $result;
-    } 
-
-	public function actionView()
-	{
-	
-		$result = $this->renderPartial('view',NULL, TRUE);
-		
-		 echo $result;
-    } 	
-	
-	
-	
-	
-	
-	public function actiongetCustomer()
-	{
-		if(empty(Yii::app()->request->csrfToken))
-		{
-			throw new CHttpException('403', 'Ошибочный запрос, отказано в доступе.');
-		}
-		$params = CJSON::decode(file_get_contents('php://input'), true);
-		$customerId = $params['data'];
-		
-		$customer = Customer::model()->findByPk($customerId);
-		
-		$result[] = array(
-			'id' => $customer->id,
-			'name' => $customer->name,
-			'phone' => $customer->phone,
-			'address' => $customer->address,
-			);
-		
-		 echo  CJSON::encode($result);
-    }  
-	
-	public function actiongetOrders()
-	{
-		if(empty(Yii::app()->request->csrfToken))
-		{
-			throw new CHttpException('403', 'Ошибочный запрос, отказано в доступе.');
-		}
-		$params = CJSON::decode(file_get_contents('php://input'), true);
-		$customerId = $params['data']['id'];
-		
-		$criteria = new CDbCriteria();
-		$criteria->condition = 'customer_id = :customer_id';
-		$criteria->params = array('customer_id' => $customerId);
-		
-		$orders = Order::model()->findAll($criteria);
-		
-		$result = array();
-		
-		foreach($orders as $order)
-		{	
-			$date_paid = '';
-			if($order->paid_at == NULL)
-			{
-				$date_paid = date("d.m.Y H:i:s", strtotime($order->paid_at));
-			}
-			$result[] = array(
-				'id' => $order->id,
-				'amount' => $order->amount,
-				'posted_at' => date("d.m.Y H:i:s", strtotime($order->posted_at)),
-				'paid_at' =>  $date_paid
-				);
-		}
-		
-		 echo  CJSON::encode($result);
-    }  
-	
-	
-	public function actionaddCustomer()
+	/**
+	 * Метод обновления данных покупки и путешествия
+	 * возвращает массив JSON с ошибками
+	 */
+	public function actionupdatePurchase()
 	{
 		if(empty(Yii::app()->request->csrfToken))
 		{
@@ -230,100 +153,49 @@ class SiteController extends Controller
 		}
 		$params = CJSON::decode(file_get_contents('php://input'), true);
 		
-		$error = TRUE;
 		$errors = array();
 		
-		$customer = new Customer();
-		$customer->name = $params['data']['name'];
-		$customer->phone = $params['data']['phone'];
-		$customer->address = $params['data']['address'];
-		if($customer->validate())
+		$purchase = Purchases::model()->findByPk($params['data']['id']);
+		$purchase->name = $params['data']['name'];
+		$purchase->price = $params['data']['price'];
+		
+		$purchase->trip->departure = $params['data']['departure'];
+		$purchase->trip->destination = $params['data']['destination'];
+		
+		if($purchase->validate())
 		{
-			$customer->save();
-		}
-		
-		$errors['customer'] = $customer->getErrors();
-		$errors['id'] = $customer->id;
-		
-		 echo CJSON::encode($errors);
-    }
-	
-	public function actionupdateCustomer()
-	{
-		if(empty(Yii::app()->request->csrfToken))
-		{
-			throw new CHttpException('403', 'Ошибочный запрос, отказано в доступе.');
-		}
-		$params = CJSON::decode(file_get_contents('php://input'), true);
-		
-		$error = TRUE;
-		$errors = array();
-		
-		$customer = Customer::model()->findByPk($params['data']['id']);
-		$customer->name = $params['data']['name'];
-		$customer->phone = $params['data']['phone'];
-		$customer->address = $params['data']['address'];
-		if($customer->validate())
-		{
-			if(!$customer->save())
+			if(!$purchase->save())
 			{
-				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить клиента.');
+				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить purchase.');
 			}
 		}
 		else
 		{
-			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить клиента.');
+			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить purchase.');
 		}
 		
-		$errors['customer'] = $customer->getErrors();
-		
-		 echo CJSON::encode($errors);
-    }
-	
-	
-	
-	public function actioncreateOrder()
-	{
-		if(empty(Yii::app()->request->csrfToken))
+		if($purchase->trip->validate())
 		{
-			throw new CHttpException('403', 'Ошибочный запрос, отказано в доступе.');
-		}
-		$params = CJSON::decode(file_get_contents('php://input'), true);
-		
-		$error = TRUE;
-		$errors = array();
-		
-		$order = new Order();
-		$order->customer_id = $params['data']['customer_id'];
-		$order->amount = $params['data']['amount'];
-		$order->posted_at = date("Y-m-d H:i:s", strtotime($params['data']['posted_at']));
-		$order->paid_at = date("Y-m-d H:i:s", strtotime($params['data']['paid_at']));
-		if($order->validate())
-		{
-			if(!$order->save())
+			if(!$purchase->trip->save())
 			{
-				throw new CHttpException('403', 'Ошибочный запрос, не удалось создать заказ.');
+				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить trip.');
 			}
 		}
-		
-		$date_paid = '';
-		if(array_key_exists('paid_at', $params['data']))
+		else
 		{
-			$date_paid = date("d.m.Y H:i:s", strtotime($order->paid_at));
+			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить trip.');
 		}
-		$result = array(
-			'id' => $order->id,
-			'amount' => $order->amount,
-			'posted_at' => date("d.m.Y H:i:s", strtotime($order->posted_at)),
-			'paid_at' =>  $date_paid
-		);
-		$errors['order'] = $order->getErrors();
-		$errors['model'] = $result;
+		
+		$errors['customer'] = array_merge($purchase->getErrors(),$purchase->trip->getErrors());
 		
 		 echo CJSON::encode($errors);
     }
 	
-	public function actionupdateOrder()
+	/**
+	 * Метод создания пользователя, путешествия, покупки
+	 * возвращает массив JSON с ошибками
+	 */
+	public function actionaddPurchase()
 	{
 		if(empty(Yii::app()->request->csrfToken))
 		{
@@ -331,43 +203,73 @@ class SiteController extends Controller
 		}
 		$params = CJSON::decode(file_get_contents('php://input'), true);
 		
-		$error = TRUE;
 		$errors = array();
 		
-		$order = Order::model()->findByPk($params['data']['id']);
-		$order->customer_id = $params['data']['customer_id'];
-		$order->amount = $params['data']['amount'];
-		$order->posted_at = date("Y-m-d H:i:s", strtotime($params['data']['posted_at']));
-		$order->paid_at = date("Y-m-d H:i:s", strtotime($params['data']['paid_at']));
-		if($order->validate())
+		$user = new Users();
+		$user->username = $params['data']['userfullname'];
+		$user->password = $params['data']['password'];
+		$user->email = $params['data']['email'];
+		$user->first_name = strpos($params['data']['userfullname'], ' ')===false ? $params['data']['userfullname']: substr($params['data']['userfullname'],0,strpos($params['data']['userfullname'], ' ') );
+		$user->last_name = strpos($params['data']['userfullname'], ' ')===false ? $params['data']['userfullname']: substr($params['data']['userfullname'],strpos($params['data']['userfullname'], ' ') );
+		
+		if($user->validate())
 		{
-			if(!$order->save())
+			if(!$user->save())
 			{
-				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить заказ.');
+				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить user');
 			}
 		}
-		
-		$errors['order'] = $order->getErrors();
-		
-		 echo CJSON::encode($errors);
-    }
-	
-	public function actiondeleteOrder()
-	{
-		if(empty(Yii::app()->request->csrfToken))
+		else
 		{
-			throw new CHttpException('403', 'Ошибочный запрос, отказано в доступе.');
+			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить user');
 		}
-		$params = CJSON::decode(file_get_contents('php://input'), true);
 		
-		$errors = array();
-		$id = $params['data'];
+		$trip = new Trip();
+		$trip->users__id = $user->id;
+		$trip->departure = $params['data']['departure'];
+		$trip->destination = $params['data']['destination'];
+		$trip->date_start = date("Y-m-d", strtotime($params['data']['date_start']));
+		$trip->date_end = date("Y-m-d", strtotime($params['data']['date_end']));
 		
-		Order::model()->deleteByPk($id);
-					
+		if($trip->validate())
+		{
+			if(!$trip->save())
+			{
+				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить trip');
+			}
+		}
+		else
+		{
+			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить trip');
+		}
+		
+		$purchase = new Purchases();
+		$purchase->users__id = $user->id;
+		$purchase->trip__id = $trip->id;
+		$purchase->name = $params['data']['name'];
+		$purchase->price = $params['data']['price'];
+		
+		if($purchase->validate())
+		{
+			if(!$purchase->save())
+			{
+				throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить purchase');
+			}
+		}
+		else
+		{
+			throw new CHttpException('403', 'Ошибочный запрос, не удалось обновить purchase validate');
+		}
+		
+		$errors['customer'] = array_merge($user->getErrors(),$trip->getErrors());
+		
 		 echo CJSON::encode($errors);
     }
 	
+	/**
+	 * Метод генерации страниці с ошибкой
+	 * ничего не возвращает
+	 */
 	public function actionError()
 	{
 		if($error=Yii::app()->errorHandler->error)
@@ -378,6 +280,4 @@ class SiteController extends Controller
 				$this->render('error', $error);
 		}
 	}
-	
-	
 }
